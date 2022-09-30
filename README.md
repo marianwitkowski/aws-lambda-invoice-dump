@@ -9,7 +9,7 @@ Dokumenty gromadzone w podkatalogu bucketa usługi **S3** są o wskazanej porze,
 ## Tworzymy funkcję w **AWS Lambda**
 <img src='images/aws2.png'>
 
-## Należy pamiętać konfiguracji o (nie trzymamy parametrów, nazw użytkowników, haseł w kodzie)
+## Należy pamiętać o konfiguracji (nie trzymamy parametrów, nazw użytkowników, haseł w kodzie)
 <img src='images/aws3.png'>
 
 ## A także dodajemy trigger, który będzie wyzwalał wykonanie funkcji AWS Lambda zgodnie ze zdefiniowanym harmonogramem na wzór crontab
