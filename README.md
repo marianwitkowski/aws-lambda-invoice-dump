@@ -3,6 +3,9 @@
 ## Jak to działa?
 Dokumenty gromadzone w podkatalogu bucketa usługi **S3** są o wskazanej porze, w określonym dniu miesiąca  kompresowane do formatu ZIP oraz tworzony jest URL zawierający token o określonym czasie ważności.  Następnie ten link wysyłany jest przy użyciu usługi **SES (Simple Email Service)**.
 
+Kod funkcji AWS Lambda dostępny jest <a href='lambda_function.py'>tutaj</a>.
+
+
 ## Tworzymy w **S3** bucket, a w nim podkatalogi z numerami miesięcy od 01-12
 <img src='images/aws1.png'>
 
