@@ -15,6 +15,6 @@ Kod funkcji AWS Lambda dostępny jest <a href='lambda_function.py'>tutaj</a>.
 ## Należy pamiętać o konfiguracji (nie trzymamy parametrów, nazw użytkowników, haseł w kodzie)
 <img src='images/aws3.png'>
 
-## A także dodajemy trigger, który będzie wyzwalał wykonanie funkcji AWS Lambda zgodnie ze zdefiniowanym harmonogramem na wzór crontab
+## A także dodajemy trigger, który będzie wyzwalał funkcję AWS Lambda zgodnie ze zdefiniowanym harmonogramem na wzór crontab
 <img src='images/aws4.png'>
 
