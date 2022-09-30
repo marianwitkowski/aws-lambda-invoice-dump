@@ -1,7 +1,7 @@
-# Automatyzacja procesu wysyłania dokumentów
+# Automatyzacja procesu wysyłania dokumentów do rozliczeń
 
 ## Jak to działa?
-Dokumenty gromadzone w podkatalogu bucketa usługi **S3** są o wskazanej porze, w określonym dniu miesiąca  kompresowane do formatu ZIP oraz tworzony jest URL zawierający token o określonym czasie ważności.  Następnie ten link wysyłany jest przy użyciu usługi **SES (Simple Email Service)**.
+Dokumenty gromadzone w podkatalogu bucketa (podkatalogi o nazwach 01-12 dla każdego miesiąca) usługi **S3** są o wskazanej porze, w określonym dniu miesiąca  kompresowane do formatu ZIP oraz tworzony jest URL zawierający token o określonym czasie ważności.  Następnie ten link wysyłany jest przy użyciu usługi **SES (Simple Email Service)**.
 
 Kod funkcji AWS Lambda dostępny jest <a href='lambda_function.py'>tutaj</a>.
 
